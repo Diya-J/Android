@@ -23,7 +23,16 @@ Android/
 │   ├── hashmap.py
 │   └── README.md
 ├── Q3_Book_Review_App/
-│   ├── [Android Studio Project Files]
+│   ├──  idea
+│   ├──  app
+│   ├──  gradle
+│   ├──  .gitignore
+│   ├──  README.md
+│   ├──  build.gradle.kts
+│   ├──  gradle.properties
+│   ├──  gradlew
+│   ├──  gradlew.bat
+│   ├──  settings.gradle.kts
 │   └── README.md
 └── README.md  ← (Project-level)
 
