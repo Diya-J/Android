@@ -16,17 +16,16 @@ This repository contains solutions to the first set of Android assignments. It i
 Folder Structure
 
 Android/
-│
 ├── Q1_LRU_Cache/
 │   ├── lru_cache.py
-│   ├── README.md
+│   └── README.md
 │
 ├── Q2_Custom_HashMap/
 │   ├── hashmap.py
-│   ├── README.md
+│   └── README.md
 │
 ├── Q3_Book_Review_App/
 │   ├── [Android Studio Project Files]
 │   └── README.md
 │
-└── README.md (Project level)
+└── README.md  ← (This file)
