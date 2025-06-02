@@ -11,15 +11,38 @@ An Android app built in Java, showing a list of books using the MVVM architectur
 
 ## 📂 Folder Structure
 
-- `model/` - Book.java (POJO)
-- `network/` - ApiService.java, RetrofitClient.java
-- `repository/` - BookRepository.java
-- `ui/` - BookListActivity.java (Main screen)
+app/
+├── java/com/yourapp/
+│   ├── model/
+│   │   ├── Book.java          ← From API
+│   │   └── BookEntity.java    ← For Room
+│   ├── network/
+│   │   ├── ApiService.java
+│   │   └── RetrofitClient.java
+│   ├── db/
+│   │   ├── BookDao.java
+│   │   └── AppDatabase.java
+│   ├── repository/
+│   │   └── BookRepository.java
+│   ├── viewmodel/
+│   │   └── BookViewModel.java
+│   ├── adapter/
+│   │   └── BookAdapter.java
+│   └── ui/
+│       ├── MainActivity.java
+│       └── BookDetailActivity.java
+└── res/
+    ├── layout/
+    │   ├── activity_main.xml
+    │   ├── item_book.xml
+    │   └── activity_book_detail.xml
 
-## 🚀 How to Run
 
-1. Open in Android Studio
-2. Let Gradle sync and dependencies install
-3. Run on emulator or Android device
+- 'model' - Book.java (POJO)
+- 'network' - ApiService.java, RetrofitClient.java
+- 'repository' - BookRepository.java
+- 'ui' - BookListActivity.java (Main screen)
+
+
 
 
